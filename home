@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coash Drone Tours</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+        }
+        header {
+            background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        header h1 {
+            font-size: 4rem;
+            margin: 0;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+        nav {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        section p, ul {
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .cta {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .cta a {
+            display: inline-block;
+            padding: 15px 30px;
+            color: white;
+            background: #007BFF;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+        }
+        .cta a:hover {
+            background: #0056b3;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Coash Drone Tours</h1>
+        <p>Explore the World from a New Perspective</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Coash Drone Tours, we provide top-notch aerial photography and videography services to showcase landscapes, properties, and events in their best light. Our cutting-edge drone technology ensures every shot is breathtaking and impactful.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Professional Aerial Photography</li>
+            <li>High-Quality Video Tours</li>
+            <li>Event Drone Coverage</li>
+            <li>Real Estate and Commercial Visuals</li>
+        </ul>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Our portfolio is currently being updated with amazing new projects. Stay tuned!</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:info@coashdronetours.com">info@coashdronetours.com</a></p>
+        <p>Phone: (555) 123-4567</p>
+        <p>Follow us on social media to stay connected!</p>
+    </section>
+    <div class="cta">
+        <a href="#contact">Book Your Drone Tour Now</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 Coash Drone Tours. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
